@@ -12,6 +12,6 @@
 // output에서 순서는 상관없습니다.
 
 // blue print:
-// 먼저
+// 먼저 하나더
 
 const input = ["eat", "tea", "tan", "ate", "nat", "bat"];
