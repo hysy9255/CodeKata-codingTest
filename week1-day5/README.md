@@ -14,9 +14,11 @@ return은 ''
 
 예를 들어 인자로 받을 배열에 다음과 같은 단어들이 들어 있다고 가정해 봅시다: [“person”, “peach”, “pencil”, “pension”] — 이 단어들을 아래의 그림과 같이 구현합니다.
 
-<div align="center">
-    <img src = "![](https://github.com/hysy9255/CodeKata-codingTest/blob/main/week1-day5/imgs/img_1.webp)">
-</div>
+![](https://github.com/hysy9255/CodeKata-codingTest/blob/main/week1-day5/imgs/img_1.webp)
+
+<p align="center">
+    <img src = "https://github.com/hysy9255/CodeKata-codingTest/blob/main/week1-day5/imgs/img_1.webp">
+<p>
 
 해당 단어들을 위와 같이 구현하는 이유는 인자로 들어오는 배열 (strs) 에 몇 개의 단어가 들어오든 상관없이 아래와 같이 비교를 할 수 있기 때문입니다.
 
