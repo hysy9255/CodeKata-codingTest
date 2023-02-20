@@ -18,6 +18,7 @@ return은 ''
 
 <p align="center">
     <img src = "https://github.com/hysy9255/CodeKata-codingTest/blob/main/week1-day5/imgs/img_1.webp">
+    <span>1 차원 데이터를 2 차원으로 변환한 모습</span>
 <p>
 
 해당 단어들을 위와 같이 구현하는 이유는 인자로 들어오는 배열 (strs) 에 몇 개의 단어가 들어오든 상관없이 아래와 같이 비교를 할 수 있기 때문입니다.
