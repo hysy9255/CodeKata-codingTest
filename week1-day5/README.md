@@ -14,16 +14,18 @@ return은 ''
 
 예를 들어 인자로 받을 배열에 다음과 같은 단어들이 들어 있다고 가정해 봅시다: [“person”, “peach”, “pencil”, “pension”] — 이 단어들을 아래의 그림과 같이 구현합니다.
 
-![](https://github.com/hysy9255/CodeKata-codingTest/blob/main/week1-day5/imgs/img_1.webp)
 
 <p align="center">
     <img src = "https://github.com/hysy9255/CodeKata-codingTest/blob/main/week1-day5/imgs/img_1.webp">
-    <span>1 차원 데이터를 2 차원으로 변환한 모습</span>
-<p>
+    </br>
+    <span style="color : red">1 차원 데이터를 2 차원으로 변환한 모습</span>
+</p>
 
 해당 단어들을 위와 같이 구현하는 이유는 인자로 들어오는 배열 (strs) 에 몇 개의 단어가 들어오든 상관없이 아래와 같이 비교를 할 수 있기 때문입니다.
 
-![](https://github.com/hysy9255/CodeKata-codingTest/blob/main/week1-day5/imgs/img_2.webp)
+<p align="center">
+    <img src = "https://github.com/hysy9255/CodeKata-codingTest/blob/main/week1-day5/imgs/img_2.webp">
+</p>
 
 여기서 한 가지 주의 할 점은 인자로 받은 단어들 중 가장 짧은 단어 “pen”의 길이는 3이고 나머지 단어들의 길이는 3을 초과한다는 것입니다. 따라서 추후에 for loop을 돌면서 해당 단어들을 비교 시 for loop의 횟수가 3을 넘어가면 안됩니다. 왜냐하면 4번을 돌 경우 다른 단어들은 ‘s’, ‘c’, ‘c’ 를 비교 할테지만 pen은 비교할 알파벳이 없기 때문에 에러가 날 수 있습니다.
 
@@ -89,13 +91,21 @@ console.log(answerArr);
 
 해당 알고리즘 문제에서 가장 난이도가 높은 파트입니다. 2 차원 데이터로 이루어진 outerArr를 다루기 위해서 nested for loop (for loop 안에 for loop이 존재하는 형태) 을 사용합니다.
 
-![](https://github.com/hysy9255/CodeKata-codingTest/blob/main/week1-day5/imgs/img_3.webp)
+<p align="center">
+    <img src = "https://github.com/hysy9255/CodeKata-codingTest/blob/main/week1-day5/imgs/img_3.webp">
+    </br>
+    <span style="color : red">outerArr의 모습</span>
+</p>
 
 outerArr안에 배열들이 요소로써 존재합니다. Nested for loop을 통해 각 배열들의 첫 번째 요소들을 깎아내어 임시 저장소 (tempArr)에 넣은 후, 파트 3에서 만든 allEqual() 함수를 통해 모두 동일한 값들인지 확인하고 그러하다면 answerArr 배열에 push 합니다.
 
 이 프로세스를 각 배열들의 두 번째와 세 번째 요소들에게도 동일하게 적용합니다.
 
-![](https://github.com/hysy9255/CodeKata-codingTest/blob/main/week1-day5/imgs/img_4.webp)
+<p align="center">
+    <img src = "https://github.com/hysy9255/CodeKata-codingTest/blob/main/week1-day5/imgs/img_4.webp">
+    </br>
+    <span style="color : red">Part 4.를 console.log() 한 모습</span>
+</p>
 
 ### Part 5.
 
